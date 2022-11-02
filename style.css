@@ -13,7 +13,8 @@ body {
   background-color: #100213;
   background-image: url(assets/background.svg);
   background-position-x: center;
-  background-position-y: 55.6%;
+  background-position-y: 95.6%;
+  /* background-size: cover; */
   
 }
 
@@ -27,18 +28,23 @@ header{
   margin-bottom: 63px;
 }
 
+#cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+}
+
 .card {
   padding: 32px 23px;
   text-align: center;
+  height: fit-content;
   background: #1D1C19;
   border-bottom: 2px solid #F7DD43;
   border-radius: 6px;
 }
 
-/* #cards {
-  display: flex;
-  gap: 16px;
-} */
 
 h2 {
   display: flex;
