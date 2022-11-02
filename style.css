@@ -94,3 +94,12 @@ h2 span {
   width: 50px;
   height: 50px;
 }
+
+.names{
+  font-size: 7px;
+  display: flex;
+  text-transform: capitalize;
+  color: #dad7c7;
+  justify-content: space-between;
+  
+}
