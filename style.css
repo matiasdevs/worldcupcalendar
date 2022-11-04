@@ -181,12 +181,13 @@ header img {
 
 .button {
   text-align: center;
-  margin-bottom: 20px;;
+  margin-bottom: 20px;
 }
 
  .button img {
   width: 30px;
   height: 30px;
+  cursor: pointer;
 }
 
 .button {
