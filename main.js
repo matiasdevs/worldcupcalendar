@@ -49,16 +49,24 @@ document.querySelector('#cards').innerHTML =
 
 let changeColor = document.querySelector('body');
 
+function removeColor(color){
+  changeColor.classList.remove(color)
+}
+
+function addColor(color){
+  changeColor.classList.add(color)
+}
+
   document.querySelector('#yellow').addEventListener('click', function(){
-    changeColor.classList.remove('green');
-    changeColor.classList.remove('blue');
+    removeColor('green');
+    removeColor('blue');
   })
   document.querySelector('#blue').addEventListener('click', function(){
-    changeColor.classList.remove('green');
-    changeColor.classList.add('blue');
+    removeColor('green');
+    addColor('blue');
   })
   document.querySelector('#green').addEventListener('click', function(){
-    changeColor.classList.add('green');
+    addColor('green');
     })
   
 
