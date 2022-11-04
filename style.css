@@ -53,6 +53,7 @@ header {
 }
 
 header img {
+  height: 175px;
   width: 175px;
   animation: appear 1.05s forwards;
 }
@@ -137,7 +138,7 @@ header img {
   color: #e1e1e6;
 }
 
-#app img:hover,
+#app 
 .names h1:hover,
 .card h2:hover,
 .card ul li strong:hover,
@@ -145,7 +146,7 @@ header img {
   transform: scale(1.2);
 }
 
-#app img,
+#app 
 .names h1,
 .card h2,
 .card ul li strong,
@@ -155,7 +156,7 @@ header img {
 
 .card {
   opacity: 0;
-  animation: appear 1.5s forwards;
+  animation: appear 0.9s forwards;
 }
 
 @keyframes appear {
