@@ -68,5 +68,3 @@ function addColor(color){
   document.querySelector('#green').addEventListener('click', function(){
     addColor('green');
     })
-  
-
