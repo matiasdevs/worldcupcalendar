@@ -46,23 +46,19 @@ document.querySelector('#cards').innerHTML =
         )
   ;
 
-let isBlue = true;
-let isYellow = false;
+
 let changeColor = document.querySelector('body');
 
   document.querySelector('#yellow').addEventListener('click', function(){
     changeColor.classList.remove('green');
     changeColor.classList.remove('blue');
-    isBlue = !isBlue;
   })
   document.querySelector('#blue').addEventListener('click', function(){
     changeColor.classList.remove('green');
     changeColor.classList.add('blue');
-    isYellow = !isYellow;
   })
   document.querySelector('#green').addEventListener('click', function(){
     changeColor.classList.add('green');
-    isBlue = !isBlue;
     })
   
 
