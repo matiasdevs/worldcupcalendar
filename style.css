@@ -70,7 +70,11 @@ header img {
   justify-content: space-between;
   color: #e1e1e6;
   font-size: 7px;
-  text-transform: capitalize;
+  text-transform: uppercase;
+}
+
+h1 {
+  text-align: center;
 }
 
 .card {
@@ -147,7 +151,6 @@ header img {
 }
 
 #app
-
 .names h1,
 .card h2,
 .card ul li strong,
