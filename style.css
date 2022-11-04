@@ -11,14 +11,14 @@
   --bg: url(assets/bg-yellow.svg);
 }
 
-body.blue {
+.blue {
   --card-title-border-color: #338af3;
   --card-color-primary: #338af3;
   --card-bg-color: #202024;
   --bg: url(assets/bg-blue.svg);
 }
 
-body.green {
+.green {
   --card-title-border-color: #047c3f;
   --card-color-primary: #047c3f;
   --card-bg-color: #1a1f1b;
@@ -146,7 +146,8 @@ header img {
   transform: scale(1.2);
 }
 
-#app 
+#app
+
 .names h1,
 .card h2,
 .card ul li strong,
@@ -176,4 +177,19 @@ header img {
     flex-wrap: wrap;
     max-width: 1200px;
   }
+}
+
+.button {
+  text-align: center;
+  margin-bottom: 20px;;
+}
+
+ .button img {
+  width: 30px;
+  height: 30px;
+}
+
+.button {
+  opacity: 0;
+  animation: appear 0.9s forwards;
 }
