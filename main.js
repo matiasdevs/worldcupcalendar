@@ -56,6 +56,7 @@ let changeColor = document.querySelector('body');
     isBlue = !isBlue;
   })
   document.querySelector('#blue').addEventListener('click', function(){
+    changeColor.classList.remove('green');
     changeColor.classList.add('blue');
     isYellow = !isYellow;
   })
