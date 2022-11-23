@@ -87,7 +87,7 @@ h1 {
   border-radius: 6px;
 }
 
-.card h2 {
+.card h2, h3 {
   display: flex;
   gap: 16px;
   justify-content: center;
@@ -99,12 +99,12 @@ h1 {
 
   width: fit-content;
   margin-inline: auto;
-  margin-bottom: 53px;
+  margin-bottom: 20px;
 
   color: #f7dd43;
 }
 
-.card h2 span {
+.card h2 span, h3 span {
   color: #e1e1e6;
   font-size: 14px;
   text-transform: uppercase;
@@ -129,7 +129,7 @@ h1 {
   height: 50px;
 }
 
-.card ul div + li {
+.card ul div + div {
   padding-top: 24px;
   border-top: 1px solid #323238;
 }
@@ -145,6 +145,7 @@ h1 {
 #app 
 .names h1:hover,
 .card h2:hover,
+.card h3:hover,
 .card ul li strong:hover,
 .card ul li img:hover {
   transform: scale(1.2);
@@ -153,6 +154,7 @@ h1 {
 #app
 .names h1,
 .card h2,
+.card h3,
 .card ul li strong,
 .card ul li img {
   transition: transform 0.3s;
