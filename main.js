@@ -92,10 +92,10 @@ document.querySelector('#cards').innerHTML =
         createGame('wales', '0 x 3', 'england', 'fim do jogo')
         ) +
       createCard('30/11', 'quarta',    
-        createGame('tunisia', '07:00', 'france', 'a jogar') +
-        createGame('australia', '10:00', 'denmark', 'a jogar') +
-        createGame('poland', '13:00', 'argentina', 'a jogar') +
-        createGame('saudi arabia', '16:00', 'mexico', 'a jogar')
+        createGame('tunisia', '1 x 0', 'france', 'fim do jogo') +
+        createGame('australia', '1 x 0', 'denmark', 'fim do jogo') +
+        createGame('poland', '0 x 2', 'argentina', 'fim do jogo') +
+        createGame('saudi arabia', '1 x 2', 'mexico', 'fim do jogo')
         ) +      
         createCard('01/12', 'quinta',    
         createGame('croatia', '07:00', 'belgium', 'a jogar') +
