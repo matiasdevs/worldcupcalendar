@@ -140,10 +140,10 @@ document.querySelector('#cards').innerHTML =
         createGame('france', '2 x 0', 'morocco', 'fim do jogo')
         ) +
       createCard('17/12', 'sabado',
-        createGame('croatia', '12:00', 'morocco', 'disputa pelo terceiro lugar')
+        createGame('croatia', '2 x 1', 'morocco', 'fim do jogo')
         ) +
       createCard('18/12', 'domingo',
-        createGame('argentina', '12:00', 'france', 'FINAL')
+        createGame('argentina', '3 x 2', 'france', 'FINAL')
         )
   ;
 
